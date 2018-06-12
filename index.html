@@ -45,13 +45,62 @@
   </script>
 
   <!-- Nagłówek strony: menu, logo, breadcrumbs itp. -->
-  <div class="container">
-    <i class="fas fa-check-circle"></i>
-    Klasa .container użyta została przykładowo, jeżeli Twój projekt wymaga .container-fluid
-    lub w ogóle rezygnuje z kontenerów, zmień ją.<br>
-    <i class="fas fa-check-circle"></i>
-    Nie muszisz trzymać się sztywnego podziału na trzy sekcje szablonu (nagłowek, treść, stopka).
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Edukacja Ekologiczna w I LO CG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Aktualności</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="archiwum.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Archiwum
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="a1.html"></a>
+            <a class="dropdown-item" href="a2.html"></a>
+            <a class="dropdown-item" href="a3.html"></a>
+            <a class="dropdown-item" href="a4.html"></a>
+            <a class="dropdown-item" href="a5.html"></a>
+            <a class="dropdown-item" href="a6.html"></a>
+            <a class="dropdown-item" href="a7.html"></a>
+            <a class="dropdown-item" href="a8.html"></a>
+            <a class="dropdown-item" href="a9.html"></a>
+            <a class="dropdown-item" href="a10.html"></a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="konkursy.html">Konkursy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dzialania.html">Działania</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="galerie.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Galerie
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="g1.html">Ogród różany (2009)</a>
+            <a class="dropdown-item" href="g2.html">XIV Sesja Historyczno-Ekologiczna (2013)</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lop.html">LOP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
   <!-- Treść główna -->
   <div class="container">
